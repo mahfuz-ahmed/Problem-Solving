@@ -13,7 +13,7 @@ for (x = 1; x <= 10; x++) {
 
 // User Input
 
-const number = parseInt(prompt("Enter a positive number: "));
+const number = parseInt(prompt('Enter a positive number: '));
 
 let n1, n2, sum;
 n1 = 0;
@@ -21,7 +21,7 @@ n2 = 1;
 sum = n2;
 
 for (x = 1; x <= number; x++) {
-  document.write(sum + "<br/>");
+  document.write(sum + '<br/>');
   sum = n1 + n2;
   n1 = n2;
   n2 = sum;
